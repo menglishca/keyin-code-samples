@@ -1,0 +1,22 @@
+{
+  "name": "text-statistics",
+  "version": "1.0.0",
+  "description": "Calculates some basic statistics for the provided text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "text-statistics": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menglishca/keyin-code-samples.git"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menglishca/keyin-code-samples/issues"
+  },
+  "homepage": "https://github.com/menglishca/keyin-code-samples#readme"
+}
