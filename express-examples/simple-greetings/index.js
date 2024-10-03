@@ -7,17 +7,10 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.static('public'));
 
 app.get('/', (request, response) => {
     response.render('index', { greeting: getRandomGreeting(), date: getFormattedDate(new Date())});
-});
-
-app.get('/public/styles.css', (request, response) => {
-    const fileOptions = {
-        root: __dirname,
-        dotfiles: 'deny',
-    };
-    response.sendFile("/public/styles.css", fileOptions);
 });
 
 app.listen(port, () => {
