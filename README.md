@@ -4,11 +4,11 @@ This repo contains the various small coding samples reviewed or created in class
 
 ## Fullstack Development Lecture Samples
 - Topic 2: Building CLI applications with Node.js
-  - [simple-cli-app](https://github.com/menglishca/keyin-code-samples/tree/main/simple-cli-app)
-  - [cli-math-calculator](https://github.com/menglishca/keyin-code-samples/tree/main/cli-math-calculator)
-  - [math-quiz](https://github.com/menglishca/keyin-code-samples/tree/main/math-quiz)
-  - [text-statistics](https://github.com/menglishca/keyin-code-samples/tree/main/text-statistics)
-  - [unit-converter](https://github.com/menglishca/keyin-code-samples/tree/main/unit-converter)
+  - [simple-cli-app](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/simple-cli-app)
+  - [cli-math-calculator](https://github.com/menglishca/keyin-code-samples/tree/main/ccli-apps/li-math-calculator)
+  - [math-quiz](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/math-quiz)
+  - [text-statistics](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/text-statistics)
+  - [unit-converter](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/unit-converter)
 - Topic 3: Javascript Event Loop, File Operations and Asynchronous Programming
   - [file-reading](https://github.com/menglishca/keyin-code-samples/tree/main/file-reading)
 - Topic 4: Unit Testing and NPM
@@ -16,6 +16,9 @@ This repo contains the various small coding samples reviewed or created in class
   - [factorials](https://github.com/menglishca/keyin-code-samples/tree/main/unit-testing-examples/factorial)
   - [fizz-buzz](https://github.com/menglishca/keyin-code-samples/tree/main/unit-testing-examples/fizzBuzz)
   - [greeting-generator](https://github.com/menglishca/keyin-code-samples/tree/main/unit-testing-examples/greetingGenerator)
-
+- Topic 5: Express.js and ejs
+  - [simple-greetings](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/simple-greetings)
+  - [todo-list](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/todo-list)
+  - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
 ## Database Development and Data Processing Samples
 - TBD
