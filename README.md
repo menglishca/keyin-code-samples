@@ -22,3 +22,7 @@ This repo contains the various small coding samples reviewed or created in class
   - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
 ## Database Development and Data Processing Samples
 - TBD
+
+## License
+
+All files in this repository are licensed under the MIT License.
