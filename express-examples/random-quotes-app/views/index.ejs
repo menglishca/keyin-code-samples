@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+    <body>
+        <main class="main-content">
+            <h1>Current available quotes:</h1>
+            <ul>
+                <% quotes.forEach((quote) => { %>
+                    <li><a href="/quotes/<%= quote.id %>"><%= quote.text %></a></li>
+                <% }) %>
+            </ul>
+            <a class="new-quote__link" href="/quotes/new">Add a New Quote</a>
+        </main>
+    </body>
+</html>
+

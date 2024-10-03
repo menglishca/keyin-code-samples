@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(90deg, rgba(93,142,251,1) 0%, rgba(93,142,251,1) 50%, rgba(0,212,255,1) 100%);
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    color: #F6F6F6;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content h1 {
+    font-size: 50px;
+}
+
+.main-content ul {
+    margin: 0px;
+}
+
+.main-content ul :not(:first-child) {
+    padding-top: 10px;
+}
+
+.main-content li {
+    font-size: 20px;
+}
+
+.main-content a:link {
+    color: #F6F6F6;
+}
+  
+.main-content a:visited {
+    text-decoration: none;
+}
+
+.main-content .new-quote__link {
+    margin-top: 20px;
+}
+
+.quote-details-content p {
+    margin-top: 0px;
+}
+
+.quote-details-content .quote-text {
+    font-size: 20px;
+}
+
+.new-quote {
+    font-size: 20px;
+}
+
+.new-quote form {
+    height: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.new-quote form label {
+    /* Arbitrary padding to try and make the text look centered relative to the input */
+    padding-bottom: 3px;
+}
+
+.new-quote form button {
+    padding: 11px;
+}
+
+.new-quote .quote-input {
+    margin: 0px 15px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    border: 0px solid;
+    height: 40px;
+}

@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+    <body>
+        <main class="main-content quote-details-content">
+            <h1>Quote Details</h1>
+            <p class="quote-text"><%= quote.text %></p>
+            <p>Added on <%= quote.date.toDateString() %></p>
+
+            <a href="/quotes">Back to Quotes</a>
+        </main>
+    </body>
+</html>
