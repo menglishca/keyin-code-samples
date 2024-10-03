@@ -1,0 +1,17 @@
+{
+  "name": "simple-greetings",
+  "version": "1.0.0",
+  "description": "Simple express app to display a random, but simple, greeting to the user.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "jest"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "jest": "^29.7.0"
+  }
+}
