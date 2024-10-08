@@ -19,6 +19,7 @@ This repo contains the various small coding samples reviewed or created in class
 - Topic 5: Express.js and ejs
   - [simple-greetings](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/simple-greetings)
   - [todo-list](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/todo-list)
+  - [weather-reports](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/weather-reports)
   - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
 ## Database Development and Data Processing Samples
 - TBD
