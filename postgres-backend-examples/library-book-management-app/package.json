@@ -1,0 +1,14 @@
+{
+  "name": "library-book-management-app",
+  "version": "1.0.0",
+  "description": "Manages books for a library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}

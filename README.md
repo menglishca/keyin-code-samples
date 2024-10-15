@@ -24,6 +24,10 @@ This repo contains the various small coding samples reviewed or created in class
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin
   - [Worked PostgreSQL Examples](https://github.com/menglishca/keyin-code-samples/tree/main/pgadmin-examples)
+- Topic 6: Databases and Backend Web Development
+  - [Item CLI App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/item-cli-app)
+  - [Todo List App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/todo-list-app)
+  - [Library Book Management App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/library-book-management-app)
 
 ## License
 
