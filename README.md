@@ -5,7 +5,7 @@ This repo contains the various small coding samples reviewed or created in class
 ## Fullstack Development Lecture Samples
 - Topic 2: Building CLI applications with Node.js
   - [simple-cli-app](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/simple-cli-app)
-  - [cli-math-calculator](https://github.com/menglishca/keyin-code-samples/tree/main/ccli-apps/li-math-calculator)
+  - [cli-math-calculator](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/li-math-calculator)
   - [math-quiz](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/math-quiz)
   - [text-statistics](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/text-statistics)
   - [unit-converter](https://github.com/menglishca/keyin-code-samples/tree/main/cli-apps/unit-converter)
@@ -22,7 +22,8 @@ This repo contains the various small coding samples reviewed or created in class
   - [weather-reports](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/weather-reports)
   - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
 ## Database Development and Data Processing Samples
-- TBD
+- Topic 5: Working with pgAdmin
+  - [Worked PostgreSQL Examples](https://github.com/menglishca/keyin-code-samples/tree/main/pgadmin-examples)
 
 ## License
 
