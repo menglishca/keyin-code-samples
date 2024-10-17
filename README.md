@@ -21,6 +21,9 @@ This repo contains the various small coding samples reviewed or created in class
   - [todo-list](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/todo-list)
   - [weather-reports](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/weather-reports)
   - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
+- Topic 6: HTTP Methods and RESTful APIs
+  - [library-api](https://github.com/menglishca/keyin-code-samples/tree/main/rest-api-examples/library-api)
+
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin
   - [Worked PostgreSQL Examples](https://github.com/menglishca/keyin-code-samples/tree/main/pgadmin-examples)
