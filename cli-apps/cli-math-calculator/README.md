@@ -1,5 +1,4 @@
 # CLI Math Calculator
-
 - A basic command line calculator to perform basic arithmetic operations
 
 ## Instructions

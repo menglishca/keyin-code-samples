@@ -1,5 +1,4 @@
 # Keyin Code Samples
-
 This repo contains the various small coding samples reviewed or created in classes at Keyin College taught by me.
 
 ## Fullstack Development Lecture Samples
@@ -31,7 +30,10 @@ This repo contains the various small coding samples reviewed or created in class
   - [Item CLI App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/item-cli-app)
   - [Todo List App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/todo-list-app)
   - [Library Book Management App](https://github.com/menglishca/keyin-code-samples/tree/main/postgres-backend-examples/library-book-management-app)
+- Topic 7: Connecting a Node.js backend to a PostgreSQL database
+  - [Library Book Management](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/library-book-management)
+  - [Product Inventory](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/product-inventory)
+  - [User Management](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/user-management)
 
 ## License
-
 All files in this repository are licensed under the MIT License.
