@@ -185,6 +185,59 @@ app.delete('/users/:id', (request, response) => {
     response.status(204).send();
 });
 
+// PUT /users/:userId/books/:bookId
+// Adds a new book to the user's list of borrowed books
+app.put('/users/:userId/books/:bookId', (request, response) => {
+    const userId = parseInt(request.params.userId);
+    const bookId = parseInt(request.params.bookId);
+    const userIndex = users.findIndex((user) => user.id === userId);
+
+    if (userIndex === -1) {
+        return response.status(404).json({ message: 'User not found' });
+    }
+
+    const bookIndex = books.findIndex((book) => book.id === bookId);
+    if (bookIndex === -1) {
+        return response.status(404).json({ message: 'Book not found' });
+    }
+
+    users[userIndex].borrowedBooks.push(books[bookIndex]);
+    response.status(201).send();
+});
+
+// DELETE /users/:userId/books/:bookId
+// Removes a book from the user's list of borrowed books
+app.delete('/users/:userId/books/:bookId', (request, response) => {
+    const userId = parseInt(request.params.userId);
+    const bookId = parseInt(request.params.bookId);
+    const userIndex = users.findIndex((user) => user.id === userId);
+
+    if (userIndex === -1) {
+        return response.status(404).json({ message: 'User not found' });
+    }
+
+    const bookIndex = users[userIndex].borrowedBooks.findIndex((book) => book.id === bookId);
+    if (bookIndex === -1) {
+        return response.status(404).json({ message: 'No such book checked out by the user' });
+    }
+
+    users[userIndex].borrowedBooks.splice(bookIndex, 1);
+    response.status(204).send();
+});
+
+// GET /users/:userId/books
+// Gets all books the specified user has checked out
+app.get('/users/:userId/books', (request, response) => {
+    const userId = parseInt(request.params.userId);
+    const userIndex = users.findIndex((user) => user.id === userId);
+
+    if (userIndex === -1) {
+        return response.status(404).json({ message: 'User not found' });
+    }
+
+    response.status(200).json(users[userIndex].borrowedBooks);
+});
+
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

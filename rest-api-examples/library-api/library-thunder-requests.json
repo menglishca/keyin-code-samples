@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "keyin-library-example",
     "collectionId": "ece6cea8-69b9-46cd-89b5-687498310be5",
-    "dateExported": "2024-10-17T07:18:47.154Z",
+    "dateExported": "2024-11-05T22:53:49.484Z",
     "version": "1.2",
     "folders": [
         {
@@ -179,7 +179,43 @@
             "created": "2024-10-17T07:16:16.307Z",
             "modified": "2024-10-17T07:16:30.853Z",
             "headers": []
+        },
+        {
+            "_id": "a3629a8d-4cdd-4c7e-beb3-e0ec4d71deaa",
+            "colId": "ece6cea8-69b9-46cd-89b5-687498310be5",
+            "containerId": "a88830d3-b333-4041-aa60-ed4083f004df",
+            "name": "Get user's borrowed books",
+            "url": "http://localhost:3000/users/2/books",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-11-05T22:26:08.206Z",
+            "modified": "2024-11-05T22:26:31.147Z",
+            "headers": []
+        },
+        {
+            "_id": "c815a753-cefb-4423-8cb6-79caa9e7eab3",
+            "colId": "ece6cea8-69b9-46cd-89b5-687498310be5",
+            "containerId": "a88830d3-b333-4041-aa60-ed4083f004df",
+            "name": "Add borrowed book",
+            "url": "http://localhost:3000/users/2/books/2",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-11-05T22:26:42.580Z",
+            "modified": "2024-11-05T22:26:59.445Z",
+            "headers": []
+        },
+        {
+            "_id": "de598e5e-715d-48cc-8139-9a9889afe6fc",
+            "colId": "ece6cea8-69b9-46cd-89b5-687498310be5",
+            "containerId": "a88830d3-b333-4041-aa60-ed4083f004df",
+            "name": "Remove borrowed book",
+            "url": "http://localhost:3000/users/2/books/2",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-11-05T22:27:08.332Z",
+            "modified": "2024-11-05T22:27:20.275Z",
+            "headers": []
         }
     ],
-    "ref": "plG4bcw92y4upo4BR4SSPzY8KzYigwc59LLsIJ7KyK9-T8yEWRlgsngr2ViSuBwFUrCOQ1TmtgzacPWi6LIsQA"
+    "ref": "plG4bcw92y4upo4BR4SSP63Pj3-q8AolBJ1_kOh_NlsjlEPRyOYD8zaYIX6froxCtfHhf46F1T3Veiq_zzJVKw"
 }
