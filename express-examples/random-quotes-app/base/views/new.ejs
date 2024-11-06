@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+    <body>
+        <main class="main-content new-quote">
+            <h1>Add a New Quote</h1>
+            <form action="/quotes" method="POST">
+                <label for="quote">Quote:</label>
+                <input class="quote-input" type="text" id="quote" name="quote" required>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>

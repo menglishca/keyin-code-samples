@@ -1,0 +1,3 @@
+describe("Tests for getRandomGreeting", () => {
+    
+});

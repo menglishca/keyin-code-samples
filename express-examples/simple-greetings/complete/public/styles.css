@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(90deg, rgba(93,142,251,1) 0%, rgba(93,142,251,1) 50%, rgba(0,212,255,1) 100%);
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    color: #F6F6F6;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content h1 {
+    font-size: 50px;
+}

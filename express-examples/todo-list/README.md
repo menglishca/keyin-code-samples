@@ -23,3 +23,7 @@ The **Todo List** is a basic task management application built with Express.js. 
 
 ## How to Add a New Task
 - Submit a new task using the form on the main page. The task will appear in the list once added.
+
+## Repo Explanation
+- The `base` folder contains the skeleton code used to start the example
+- The `complete` folder contains the completed app

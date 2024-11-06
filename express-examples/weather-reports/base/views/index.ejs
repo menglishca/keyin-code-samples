@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+    <body>
+        <main class="main-content">
+            <h1>Weather Reporter</h1>
+            <h2>Please choose your city to get a weather report</h2>
+            <form action="/weather" method="GET">
+                <label for="city">Select a city:</label>
+                <select name="city" id="city">
+                    
+                </select>
+                <button type="submit">Get Weather Report</button>
+            </form>
+        </main>
+    </body>
+</html>
+

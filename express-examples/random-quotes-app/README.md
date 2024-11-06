@@ -24,3 +24,7 @@ The **Random Quote App** is a simple Express.js application that displays random
 
 ## How to Add a New Quote
 - Submit a new quote using the form on the “Add Quote” page. The quote will then be included in the list of available quotes.
+
+## Repo Explanation
+- The `base` folder contains the skeleton code used to start the example
+- The `complete` folder contains the completed app

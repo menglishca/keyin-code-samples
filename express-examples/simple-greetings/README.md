@@ -24,3 +24,7 @@ The **Simple Greeting App** is a basic Express.js application that displays a di
 
 ## How to Add a New Greeting
 - Modify the `generateGreeting` function in `app.js` to add or change greetings.
+
+## Repo Explanation
+- The `base` folder contains the skeleton code used to start the example
+- The `complete` folder contains the completed app
