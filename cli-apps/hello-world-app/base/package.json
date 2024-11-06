@@ -1,0 +1,14 @@
+{
+  "name": "simple-hello-world-app",
+  "version": "1.0.0",
+  "description": "Simple hello world app to learn the basics of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hello-world": "./index.js"
+  },
+  "author": "Matthew English",
+  "license": "MIT"
+}

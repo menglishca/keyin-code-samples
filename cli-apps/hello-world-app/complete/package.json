@@ -1,13 +1,13 @@
 {
-  "name": "simple-cli-app",
+  "name": "hello-world-app",
   "version": "1.0.0",
-  "description": "Simple CLI app to learn the basics of Node.js",
+  "description": "Simple hello world app to learn the basics of Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "simple-cli": "./index.js"
+    "hello-world": "./index.js"
   },
   "author": "Matthew English",
   "license": "MIT"

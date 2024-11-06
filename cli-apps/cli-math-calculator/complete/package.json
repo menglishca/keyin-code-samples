@@ -1,0 +1,22 @@
+{
+  "name": "cli-math-calculator",
+  "version": "1.0.0",
+  "description": "Example CLI app to perform basic arithmetic operations on the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "math-calc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menglishca/keyin-code-samples.git"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menglishca/keyin-code-samples/issues"
+  },
+  "homepage": "https://github.com/menglishca/keyin-code-samples#readme"
+}

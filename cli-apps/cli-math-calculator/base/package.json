@@ -1,7 +1,7 @@
 {
   "name": "cli-math-calculator",
   "version": "1.0.0",
-  "description": "Performs basic arithmetic operations on the command line",
+  "description": "Example CLI app to perform basic arithmetic operations on the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
