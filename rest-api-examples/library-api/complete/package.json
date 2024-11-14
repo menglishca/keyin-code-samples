@@ -1,0 +1,16 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "Manages books and users for a library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --watch index.js"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1"
+  }
+}

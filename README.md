@@ -22,6 +22,7 @@ This repo contains the various small coding samples reviewed or created in class
   - [random-quotes-app](https://github.com/menglishca/keyin-code-samples/tree/main/express-examples/random-quotes-app)
 - Topic 6: HTTP Methods and RESTful APIs
   - [library-api](https://github.com/menglishca/keyin-code-samples/tree/main/rest-api-examples/library-api)
+  - [pet-adoption-api](https://github.com/menglishca/keyin-code-samples/tree/main/rest-api-examples/pet-adoption-api)
 
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin
