@@ -1,6 +1,9 @@
 const express = require('express');
 const session = require('express-session');
 const path = require('path');
+const bcrypt = require('bcrypt');
+
+const saltRounds = 10;
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -13,12 +16,26 @@ app.use(session({
   saveUninitialized: false,
 }));
 
-// Fake user data for demonstration purposes
-const users = [
-    { username: 'testuser', password: 'password123' }
-];
+
+const users = [];
+
+app.get('/register', (request, response) => {
+    const errorMessage = null;
+    return response.render('register', { errorMessage })
+});
+
+app.post('/register', (request, response) => {
+    const { username, password } = request.body;
+    return response.redirect('/');
+});
+
+app.get('/login', (request, response) => {
+    const errorMessage = null;
+    return response.render('login', { errorMessage })
+});
 
 app.post('/login', (request, response) => {
+    const { username, password } = request.body;
     return response.redirect('/');
 });
 

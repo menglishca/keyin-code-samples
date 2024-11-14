@@ -19,21 +19,11 @@
             </form>
         <% } else { %>
             <!-- Show login form if user is not logged in -->
-            <h1>Login</h1>
-            <% if (errorMessage) { %>
-                <p class="error-message"><%= errorMessage %></p>
-            <% } %>
-            <form action="/login" method="POST">
-                <span class="form-input-container">
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" required>
-                </span>
-                <span class="form-input-container">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-                </span>
-                <button type="submit">Login</button>
-            </form>
+            <h1>Login or Register</h1>
+            <span class="button-container">
+                <a href="/login">Login</a>
+                <a href="/register">Register</a>
+            </span>
         <% } %>
     </main>
 </body>
