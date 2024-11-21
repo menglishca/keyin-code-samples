@@ -1,0 +1,25 @@
+{
+  "name": "simple-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node --watch serviceProvider.js\" \"node --watch identityProvider.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "axios": "^1.7.7",
+    "concurrently": "^9.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

@@ -1,0 +1,18 @@
+<%- include('partials/header', {title: "Login", bodyClass: "idp-login"}) %>
+    <h1>IdP Login</h1>
+    <% if (locals.errorMessage) { %>
+        <p class="error-message"><%= errorMessage %></p>
+    <% } %>
+    <form action="/login" method="POST">
+        <div class="form-input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-input-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <input class="hidden" type="text" name="redirect" value="<%= redirect %>">
+        <button type="submit">Login</button>
+    </form>
+<%- include('partials/footer') %>
