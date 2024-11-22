@@ -26,6 +26,8 @@ This repo contains the various small coding samples reviewed or created in class
 - Topic 7: User authentication and sessions
   - [simple-login](https://github.com/menglishca/keyin-code-samples/blob/main/user-authentication-examples/simple-login)
   - [simple-registration](https://github.com/menglishca/keyin-code-samples/blob/main/user-authentication-examples/simple-registration)
+- Topic 8: SSO Examples
+  - [local-idp](https://github.com/menglishca/keyin-code-samples/blob/main/sso-examples/local-idp)
 
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin
