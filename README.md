@@ -23,6 +23,9 @@ This repo contains the various small coding samples reviewed or created in class
 - Topic 6: HTTP Methods and RESTful APIs
   - [library-api](https://github.com/menglishca/keyin-code-samples/tree/main/rest-api-examples/library-api)
   - [pet-adoption-api](https://github.com/menglishca/keyin-code-samples/tree/main/rest-api-examples/pet-adoption-api)
+- Topic 7: User authentication and sessions
+  - [simple-login](https://github.com/menglishca/keyin-code-samples/blob/main/user-authentication-examples/simple-login)
+  - [simple-registration](https://github.com/menglishca/keyin-code-samples/blob/main/user-authentication-examples/simple-registration)
 
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin
@@ -35,6 +38,10 @@ This repo contains the various small coding samples reviewed or created in class
   - [Library Book Management](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/library-book-management)
   - [Product Inventory](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/product-inventory)
   - [User Management](https://github.com/menglishca/keyin-code-samples/tree/main/express-postgres-examples/user-management)
+- Topic 9: MongoDB and management with the MongoDB shell
+  - [Library Book Collection](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/library-book-collection)
+  - [Movie Collection](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/movie-collection)
+  - [School Enrollment](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/school-enrollment)
 
 ## License
 All files in this repository are licensed under the MIT License.

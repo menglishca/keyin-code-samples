@@ -1,0 +1,18 @@
+{
+  "name": "express-tasks-template",
+  "version": "1.0.0",
+  "description": "Allows a user to manage their tasks via a REST api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
