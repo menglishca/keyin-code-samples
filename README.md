@@ -28,6 +28,8 @@ This repo contains the various small coding samples reviewed or created in class
   - [simple-registration](https://github.com/menglishca/keyin-code-samples/blob/main/user-authentication-examples/simple-registration)
 - Topic 8: SSO Examples
   - [local-idp](https://github.com/menglishca/keyin-code-samples/blob/main/sso-examples/local-idp)
+- Topic 9: Socket Examples
+  - [stock-tracker](https://github.com/menglishca/keyin-code-samples/blob/main/socket-examples/stock-tracker)
 
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin

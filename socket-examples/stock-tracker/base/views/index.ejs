@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs', {title: "Stock Tracker" }) %>
+    <div class="main-content">
+        <h1>Live Stock Tracker</h1>
+        <form id="stock-form">
+            <div class="form-input-container">
+                <label for="stock">Add Stock Symbol:</label>
+                <input type="text" id="stock" name="stock" required>
+            </div>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="stocks">
+            <% stocks.forEach(stock=> { %>
+                <li id="<%= stock %>">
+                    <%= stock %>: <span>Loading...</span>
+                </li>
+                <% }); %>
+        </ul>
+    </div>
+    <script src="/frontend.js" type="text/javascript"></script>
+  </body>
+</html>
