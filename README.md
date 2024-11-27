@@ -46,6 +46,11 @@ This repo contains the various small coding samples reviewed or created in class
   - [Library Book Collection](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/library-book-collection)
   - [Movie Collection](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/movie-collection)
   - [School Enrollment](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-compass/school-enrollment)
-
+- Topic 10: MongoDB Backend Examples
+  - [CLI-Based Item Manager](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-backend-examples/item-manager/base)
+  - [CLI-Based To-Do List Manager](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-backend-examples/todo-list-manager/base)
+  - [Library Book Management System](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-backend-examples/library-book-management/base)
+  - [Product Inventory System](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-backend-examples/product-inventory/base)
+  - [User Management System](https://github.com/menglishca/keyin-code-samples/tree/main/mongodb-backend-examples/user-management/base)
 ## License
 All files in this repository are licensed under the MIT License.

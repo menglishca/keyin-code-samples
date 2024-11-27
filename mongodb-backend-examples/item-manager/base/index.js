@@ -9,30 +9,30 @@ async function showItems() {
 }
 
 async function main() {
-  switch (command) {
-    case 'insert': {
-      const itemName = process.argv[3];
-      if (!itemName) {
-        console.log('Usage: node index.js insert <item_name>');
-        break;
-      }
-      await insertItem(itemName);
-      break;
-    }
+    switch (command) {
+        case 'insert': {
+            const itemName = process.argv[3];
+            if (!itemName) {
+                console.log('Usage: node index.js insert <item_name>');
+                break;
+            }
+            await insertItem(itemName);
+            break;
+        }
 
-    case 'show': {
-      await showItems();
-      break;
-    }
+        case 'show': {
+            await showItems();
+            break;
+        }
 
-    default:
-      console.log('Usage: node index.js <command> [arguments]');
-      console.log('Commands: insert, show');
-  }
-  mongoose.connection.close();
+        default:
+            console.log('Usage: node index.js <command> [arguments]');
+            console.log('Commands: insert, show');
+    }
+    mongoose.connection.close();
 }
 
 main().catch((error) => {
-  console.error(error);
-  mongoose.connection.close();
+    console.error(error);
+    mongoose.connection.close();
 });
