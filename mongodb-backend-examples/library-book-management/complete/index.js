@@ -74,6 +74,21 @@ app.get('/books/:id', async (req, res) => {
     }
 });
 
+app.delete('/books/:id', async (request, response) => {
+    const { id } = request.params;
+
+    try {
+        const result = await BookModel.findByIdAndDelete(id);
+        if (!result) {
+            return response.status(404).send("Book not found");
+        }
+        return response.json(result);
+    }
+    catch (error) {
+        console.error(error);
+        return response.status(500).send('Server error');
+    }
+});
 
 mongoose.connect(MONGO_URI)
     .then(() => app.listen(PORT, () => console.log(`Server is running on http://localhost:${PORT}`)))
