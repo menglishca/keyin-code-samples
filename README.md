@@ -30,6 +30,7 @@ This repo contains the various small coding samples reviewed or created in class
   - [local-idp](https://github.com/menglishca/keyin-code-samples/blob/main/sso-examples/local-idp)
 - Topic 9: Socket Examples
   - [stock-tracker](https://github.com/menglishca/keyin-code-samples/blob/main/socket-examples/stock-tracker)
+  - [real-time-notifications](https://github.com/menglishca/keyin-code-samples/blob/main/socket-examples/real-time-notifications)
 
 ## Database Development and Data Processing Samples
 - Topic 5: Working with pgAdmin

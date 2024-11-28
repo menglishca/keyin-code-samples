@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs', {title: "Real Time Notification System" }) %>
+    <div class="main-content">
+        <h1>Real-Time Notification System</h1>
+
+        <form id="set-identifier-form">
+            <div class="form-input-container">
+                <label for="identifier">Your Name/ID:</label>
+                <input type="text" id="identifier" placeholder="Enter your identifier" required />
+            </div>
+            <button type="submit">Set Identifier</button>
+        </form>
+
+        <ul id="notification-list">
+            <!-- Notifications will appear here -->
+        </ul>
+
+        <form id="send-notification-form">
+            <div class="form-input-container">
+                <label for="notification">Notification:</label>
+                <input type="text" id="notification" placeholder="Enter notification" required />
+            </div>
+            <div class="form-input-container">
+                <label for="clientId">Recipient:</label>
+                <select id="clientId">
+                    <option value="all">Broadcast to All</option>
+                    <% clients.forEach(client => { %>
+                        <option value="<%= client.id %>"><%= client.name %></option>
+                    <% }) %>
+                </select>
+            </div>
+            <button type="submit">Send Notification</button>
+        </form>
+    </div>
+
+    <script src="/frontend.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(90deg, rgba(93, 142, 251, 1) 0%, rgba(93, 142, 251, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+.main-content {
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#notification-list {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#notification-list li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    word-wrap: break-word;
+}
+
+#notification-list li:last-child {
+    border-bottom: none;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    flex: 1;
+}
+
+input,
+select {
+    flex: 2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background: #F6F6F6;
+    color: #333;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    align-self: flex-end;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #F6F6F6;
+    color: #333;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #e0e0e0;
+}
+
+#identifier:disabled {
+    background: rgba(200, 200, 200, 0.7);
+    color: #999;
+}
+
+/* select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #F6F6F6 url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E") no-repeat right 10px center;
+    background-size: 12px;
+} */
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
