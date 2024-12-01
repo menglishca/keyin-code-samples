@@ -1,0 +1,18 @@
+<%- include('./partials/header.ejs', {title: "Github SSO - Home"})%>
+  <div class="main-content">
+    <h1>GitHub SSO Example</h1>
+    <% if (user) { %>
+      <p>Welcome, <strong><%= user.username %></strong>!</p>
+      <div class="button-container">
+        <a href="/profile" class="action-button">View Profile</a>
+        <a href="/logout" class="action-button">Logout</a>
+      </div>
+    <% } else { %>
+      <p>You are not logged in. Login to access your profile.</p>
+      <div class="button-container">
+        <a href="/auth/github" class="action-button">Login with GitHub</a>
+      </div>
+    <% } %>
+  </div>
+</body>
+</html>

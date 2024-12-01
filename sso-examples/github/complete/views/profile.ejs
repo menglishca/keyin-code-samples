@@ -1,0 +1,15 @@
+<%- include('./partials/header.ejs', {title: "Github SSO - Profile"})%>
+  <div class="main-content">
+    <h1>Your Profile</h1>
+    <div class="profile-container">
+      <img src="<%= user.avatar %>" alt="<%= user.username %>'s avatar" width="150" style="border-radius: 50%; margin-bottom: 15px;">
+      <p><strong>Username:</strong> <%= user.username %></p>
+      <p><strong>Email:</strong> <%= user.email %></p>
+    </div>
+    <div class="button-container">
+      <a href="/" class="action-button">Home</a>
+      <a href="/logout" class="action-button">Logout</a>
+    </div>
+  </div>
+</body>
+</html>
