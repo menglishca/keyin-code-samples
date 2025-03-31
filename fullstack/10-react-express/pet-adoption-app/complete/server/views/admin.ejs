@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin - Pet Adoption</title>
+  <link rel="stylesheet" href="/ssr/admin.css">
+</head>
+<body>
+  <div class="main-content">
+    <h1>Admin Page</h1>
+    <p>Total pets: <%= pets.length %></p>
+
+    <ul>
+      <% pets.forEach(pet => { %>
+        <li>
+          <strong><%= pet.name %></strong> - 
+          <%= pet.type %>, 
+          <%= pet.age %> years old
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>

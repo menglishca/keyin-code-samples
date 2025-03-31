@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin - Guestbook</title>
+  <link rel="stylesheet" href="/ssr/admin.css">
+</head>
+<body>
+  <div class="main-content">
+    <h1>Admin Page</h1>
+    <p>Total messages: <%= messages.length %></p>
+
+    <ul>
+      <% messages.forEach(msg => { %>
+        <li><strong><%= msg.name %></strong>: <%= msg.text %></li>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>

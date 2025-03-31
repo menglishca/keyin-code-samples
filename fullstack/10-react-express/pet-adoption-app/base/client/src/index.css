@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(90deg, rgba(93, 142, 251, 1) 0%, rgba(93, 142, 251, 1) 50%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F6F6F6;
+}
+
+.main-content {
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #F6F6F6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
