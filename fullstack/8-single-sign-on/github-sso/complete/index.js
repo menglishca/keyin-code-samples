@@ -13,8 +13,8 @@ const users = [];
 passport.use(
     new GitHubStrategy(
         {
-            clientID: "Iv23liEPnHdy1pbjTft2",
-            clientSecret: "fc35298ad69fe8574f59790e10e56c3454c043ef",
+            clientID: "Ov23likRSGWGGYsONbPY",
+            clientSecret: "15c06fd0d21adbc14d906f5c676bc13e698eb502",
             callbackURL: "http://localhost:3000/auth/github/callback",
         },
         (accessToken, refreshToken, profile, done) => {

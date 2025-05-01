@@ -7,7 +7,19 @@ const PORT = 3000;
 const MONGO_URI = 'mongodb://localhost:27017/your_database';
 const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    email: { type: String, required: true, unique: true }
+    email: { type: String, required: true, unique: true },
+    options: [
+        {
+            answer: {
+                type: String,
+                required: true,
+            },
+            votes: {
+                type: Number,
+                required: false,
+            },
+        }
+    ]
 });
 
 const User = mongoose.model('User', userSchema);
@@ -22,6 +34,22 @@ async function seedUsers() {
     try {
         const userCount = await User.countDocuments();
         if (userCount === 0) {
+            await User.insertMany([
+                {
+                    name: '',
+                    email: '',
+                    options: [
+                        {
+                            answer: '',
+                            votes: 0,
+                        },
+                        {
+                            answer: '',
+                            votes: 0,
+                        }
+                    ]
+                }
+            ]);
             await User.insertMany([
                 { name: 'John Doe', email: 'john@example.com' },
                 { name: 'Jane Smith', email: 'jane@example.com' }

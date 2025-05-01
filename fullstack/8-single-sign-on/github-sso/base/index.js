@@ -9,31 +9,6 @@ const app = express();
 // Mock user database
 const users = [];
 
-// Passport GitHub strategy
-passport.use(
-    new GitHubStrategy(
-        {
-            clientID: "Iv23liEPnHdy1pbjTft2",
-            clientSecret: "fc35298ad69fe8574f59790e10e56c3454c043ef",
-            callbackURL: "http://localhost:3000/auth/github/callback",
-        },
-        (accessToken, refreshToken, profile, done) => {
-            // Check if user exists, else add them
-            let user = users.find((user) => user.id === profile.id);
-            if (!user) {
-                user = {
-                    id: profile.id,
-                    username: profile.username,
-                    email: profile.emails?.[0]?.value || "No public email",
-                    avatar: profile.photos?.[0]?.value || "No photo",
-                };
-                users.push(user);
-            }
-            return done(null, user);
-        }
-    )
-);
-
 // Session configuration
 app.use(
     session({
@@ -42,17 +17,6 @@ app.use(
         saveUninitialized: false,
     })
 );
-
-// Passport initialization
-app.use(passport.initialize());
-app.use(passport.session());
-
-// Serialize and deserialize user
-passport.serializeUser((user, done) => done(null, user.id));
-passport.deserializeUser((id, done) => {
-    const user = users.find((u) => u.id === id);
-    done(null, user);
-});
 
 // Set view engine
 app.set("view engine", "ejs");
@@ -68,16 +32,6 @@ app.get("/profile", ensureAuthenticated, (request, response) => {
     response.render("profile", { user: request.user });
 });
 
-app.get("/auth/github", passport.authenticate("github", { scope: ["user:email"] }));
-
-app.get(
-    "/auth/github/callback",
-    passport.authenticate("github", { failureRedirect: "/" }),
-    (request, response) => {
-        response.redirect("/profile");
-    }
-);
-
 app.get("/logout", (request, response) => {
     request.logout((error) => {
         if (error) {
@@ -86,15 +40,6 @@ app.get("/logout", (request, response) => {
         response.redirect("/");
     });
 });
-
-// Middleware to protect routes
-function ensureAuthenticated(request, response, next) {
-    if (request.isAuthenticated()) {
-        return next();
-    }
-    response.redirect("/");
-}
-
 // Start the server
 const PORT = 3000;
 app.listen(PORT, () => {
