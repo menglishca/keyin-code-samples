@@ -1,0 +1,14 @@
+{
+  "name": "palindromes",
+  "version": "1.0.0",
+  "description": "Determines whether or not the given string is a palindrome",
+  "main": "palindromes.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

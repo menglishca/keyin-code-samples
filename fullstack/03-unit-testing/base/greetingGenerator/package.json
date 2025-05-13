@@ -1,0 +1,14 @@
+{
+  "name": "greeting-generator",
+  "version": "1.0.0",
+  "description": "Generates a greeting for the user",
+  "main": "greetingGenerator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

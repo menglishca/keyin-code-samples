@@ -1,0 +1,14 @@
+{
+  "name": "Item CLI App",
+  "version": "1.0.0",
+  "description": "Allows a user to add items to a database, and display all items in the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}

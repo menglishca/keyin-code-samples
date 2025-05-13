@@ -1,0 +1,14 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Computes the fizz buzz algorithm",
+  "main": "fizzBuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

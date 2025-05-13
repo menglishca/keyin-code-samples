@@ -1,0 +1,14 @@
+{
+  "name": "factorial",
+  "version": "1.0.0",
+  "description": "Computes the factorial of a number",
+  "main": "factorial.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matthew English",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
