@@ -1,0 +1,25 @@
+# Ignore node_modules directories in any nested subfolder
+**/node_modules/
+
+# Ignore build output directories in any nested subfolder
+**/dist/
+**/build/
+
+# Ignore log files in any directory
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Ignore environment variable files in any directory
+**/.env
+
+# Ignore OS specific files in any directory
+**/.DS_Store          # macOS
+**/Thumbs.db         # Windows
+
+# Ignore IDE specific files in any directory
+**/.vscode/
+**/.idea/
+
+# Ignore coverage directories in any directory
+**/coverage/
