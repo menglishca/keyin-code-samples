@@ -15,7 +15,7 @@
 
 # Ignore OS specific files in any directory
 **/.DS_Store          # macOS
-**/Thumbs.db         # Windows
+**/Thumbs.db          # Windows
 
 # Ignore IDE specific files in any directory
 **/.vscode/
